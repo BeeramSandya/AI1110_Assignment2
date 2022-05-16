@@ -1,0 +1,52 @@
+% Inbuilt themes in beamer
+\documentclass{beamer}
+
+% Theme choice:
+\usetheme{CambridgeUS}
+
+% Title page details: 
+\title{Assignment 2} 
+\author{Beeram Sandya cs21btech11006}
+\date{\today}
+\logo{\large \LaTeX{}}
+
+
+\begin{document}
+
+% Title page frame
+\begin{frame}
+    \titlepage 
+\end{frame}
+
+% Remove logo from the next slides
+\logo{}
+
+
+% Outline frame
+\begin{frame}{Outline}
+    \tableofcontents
+\end{frame}
+
+
+% Lists frame
+\section{Question}
+\begin{frame}{Question}
+\begin{block}{ICSE 12 2019 Q17(b)}
+Find the equation of the line passing through the point $\left(2,1,3\right)$ and perpendicular to the lines $\frac{x-1}{1}=\frac{y-2}{2}=\frac{z-3}{3}$ and $\frac{x}{-3}=\frac{y}{2}=\frac{z}{5}$
+\end{block}
+\end{frame}
+
+
+% Blocks frame
+\section{Solution}
+\begin{frame}{Solution}
+    
+The direction ratios of the required line = $\left<2,-7,4\right>$\\
+And the point $\left(2,1,3\right)$ lies on the line.\\
+Therefore equation of line is given by\\
+$\frac{x-2}{2}=\frac{y-1}{-7}=\frac{z-3}{4}$
+
+    
+\end{frame} 
+
+\end{document}
